@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1570908795610,1297,Req1,200,OK,Thread Group 1-1,text,true,,165034,111,1,1,https://xavki.blog/,1027,0,448
+1570908796913,739,Req2,200,OK,Thread Group 1-1,text,true,,111069,122,1,1,https://xavki.blog/bash-shell/,491,0,0
+1570908797657,1028,Req1,200,OK,Thread Group 1-1,text,true,,164941,111,1,1,https://xavki.blog/,593,0,80
+1570908798685,592,Req2,200,OK,Thread Group 1-1,text,true,,111004,122,1,1,https://xavki.blog/bash-shell/,372,0,0
+1570908799278,991,Req1,200,OK,Thread Group 1-1,text,true,,164993,111,1,1,https://xavki.blog/,711,0,83
+1570908800269,593,Req2,200,OK,Thread Group 1-1,text,true,,111177,122,1,1,https://xavki.blog/bash-shell/,412,0,0
+1570908800863,1015,Req1,200,OK,Thread Group 1-1,text,true,,165176,111,1,1,https://xavki.blog/,663,0,88
+1570908801879,662,Req2,200,OK,Thread Group 1-1,text,true,,111328,122,1,1,https://xavki.blog/bash-shell/,446,0,0
+1570908802542,905,Req1,200,OK,Thread Group 1-1,text,true,,165210,111,1,1,https://xavki.blog/,624,0,75
+1570908803447,500,Req2,200,OK,Thread Group 1-1,text,true,,111312,122,1,1,https://xavki.blog/bash-shell/,306,0,0
+1570908803948,713,Req1,200,OK,Thread Group 1-1,text,true,,165224,111,1,1,https://xavki.blog/,421,0,90
+1570908804661,510,Req2,200,OK,Thread Group 1-1,text,true,,111305,122,1,1,https://xavki.blog/bash-shell/,323,0,0
+1570908805172,719,Req1,200,OK,Thread Group 1-1,text,true,,165231,111,1,1,https://xavki.blog/,424,0,85
+1570908805891,515,Req2,200,OK,Thread Group 1-1,text,true,,111318,122,1,1,https://xavki.blog/bash-shell/,320,0,0
+1570908806407,723,Req1,200,OK,Thread Group 1-1,text,true,,165211,111,1,1,https://xavki.blog/,417,0,85
+1570908807131,554,Req2,200,OK,Thread Group 1-1,text,true,,111243,122,1,1,https://xavki.blog/bash-shell/,309,0,0
+1570908807687,754,Req1,200,OK,Thread Group 1-1,text,true,,165209,111,1,1,https://xavki.blog/,366,0,77
+1570908808442,405,Req2,200,OK,Thread Group 1-1,text,true,,111272,122,1,1,https://xavki.blog/bash-shell/,227,0,0
+1570908808849,850,Req1,200,OK,Thread Group 1-1,text,true,,165226,111,1,1,https://xavki.blog/,461,0,81
+1570908809702,528,Req2,200,OK,Thread Group 1-1,text,true,,111330,122,1,1,https://xavki.blog/bash-shell/,298,0,0
