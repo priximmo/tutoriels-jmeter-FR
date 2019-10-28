@@ -1,82 +1,82 @@
-2019-10-14 23:02:53,918 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2019-10-14 23:02:53,950 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2019-10-14 23:02:53,950 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2019-10-14 23:02:53,960 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
-2019-10-14 23:02:53,960 INFO o.a.j.JMeter: Version 5.1.1 r1855137
-2019-10-14 23:02:53,960 INFO o.a.j.JMeter: java.version=11.0.2
-2019-10-14 23:02:53,961 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2019-10-14 23:02:53,961 INFO o.a.j.JMeter: os.name=Linux
-2019-10-14 23:02:53,961 INFO o.a.j.JMeter: os.arch=amd64
-2019-10-14 23:02:53,962 INFO o.a.j.JMeter: os.version=4.15.0-43-generic
-2019-10-14 23:02:53,962 INFO o.a.j.JMeter: file.encoding=UTF-8
-2019-10-14 23:02:53,962 INFO o.a.j.JMeter: java.awt.headless=null
-2019-10-14 23:02:53,962 INFO o.a.j.JMeter: Max memory     =1073741824
-2019-10-14 23:02:53,962 INFO o.a.j.JMeter: Available Processors =4
-2019-10-14 23:02:53,973 INFO o.a.j.JMeter: Default Locale=English (EN)
-2019-10-14 23:02:53,975 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2019-10-14 23:02:53,975 INFO o.a.j.JMeter: JMeterHome=/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1
-2019-10-14 23:02:53,975 INFO o.a.j.JMeter: user.dir  =/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin
-2019-10-14 23:02:53,975 INFO o.a.j.JMeter: PWD       =/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin
-2019-10-14 23:02:53,982 INFO o.a.j.JMeter: IP: 192.168.1.67 Name: OLP00002691 FullName: 192.168.1.67
-2019-10-14 23:02:54,758 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
-2019-10-14 23:02:54,781 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
-2019-10-14 23:02:54,781 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
-2019-10-14 23:02:54,877 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2019-10-14 23:02:57,542 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-10-14 23:02:57,542 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-10-14 23:02:57,543 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-10-14 23:02:57,543 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-10-14 23:02:57,543 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2019-10-14 23:02:57,544 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2019-10-14 23:02:58,162 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2019-10-14 23:02:58,163 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin/proxyserver.jks
-2019-10-14 23:02:58,520 INFO o.a.j.s.FileServer: Default base='/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin'
-2019-10-14 23:02:59,395 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2019-10-14 23:02:59,396 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2019-10-14 23:02:59,396 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2019-10-14 23:02:59,396 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2019-10-14 23:02:59,462 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2019-10-14 23:03:01,411 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
-2019-10-14 23:03:03,151 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
-2019-10-14 23:03:04,727 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
-2019-10-14 23:03:06,347 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
-2019-10-14 23:03:09,017 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
-2019-10-14 23:03:10,948 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
-2019-10-14 23:07:20,073 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2019-10-14 23:07:40,497 INFO o.a.j.s.FileServer: Set new base='/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin'
-2019-10-14 23:07:40,689 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2019-10-14 23:07:40,713 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2019-10-14 23:07:40,715 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2019-10-14 23:07:40,769 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-10-14 23:07:40,786 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-10-14 23:07:40,790 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-10-14 23:07:40,803 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2019-10-14 23:07:40,805 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2019-10-14 23:07:41,468 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2019-10-14 23:07:41,664 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2019-10-14 23:07:41,664 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2019-10-14 23:07:41,664 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-10-14 23:07:41,664 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2019-10-14 23:07:41,674 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-10-14 23:07:41,674 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-10-14 23:07:41,678 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2019-10-14 23:07:44,563 INFO o.a.j.g.a.Start: Shutting test down
-2019-10-14 23:07:44,603 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
-2019-10-14 23:07:44,605 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2019-10-14 23:07:44,605 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-10-14 23:07:44,640 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2019-10-14 23:08:08,043 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-10-14 23:08:08,043 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-10-14 23:08:08,053 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2019-10-14 23:08:08,177 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2019-10-14 23:08:08,177 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2019-10-14 23:08:08,178 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-10-14 23:08:08,178 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2019-10-14 23:08:08,181 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-10-14 23:08:08,181 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-10-14 23:08:08,184 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2019-10-14 23:08:40,200 INFO o.a.j.g.a.Start: Stopping test
-2019-10-14 23:08:40,216 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2019-10-14 23:08:40,217 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-10-14 23:08:40,222 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
-2019-10-14 23:08:40,224 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-10-28 07:12:36,346 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-10-28 07:12:36,380 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2019-10-28 07:12:36,380 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2019-10-28 07:12:36,388 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-10-28 07:12:36,388 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2019-10-28 07:12:36,388 INFO o.a.j.JMeter: java.version=11.0.2
+2019-10-28 07:12:36,388 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-10-28 07:12:36,389 INFO o.a.j.JMeter: os.name=Linux
+2019-10-28 07:12:36,389 INFO o.a.j.JMeter: os.arch=amd64
+2019-10-28 07:12:36,389 INFO o.a.j.JMeter: os.version=4.15.0-43-generic
+2019-10-28 07:12:36,389 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-10-28 07:12:36,389 INFO o.a.j.JMeter: java.awt.headless=null
+2019-10-28 07:12:36,389 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-10-28 07:12:36,389 INFO o.a.j.JMeter: Available Processors =4
+2019-10-28 07:12:36,403 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-10-28 07:12:36,403 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-10-28 07:12:36,403 INFO o.a.j.JMeter: JMeterHome=/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1
+2019-10-28 07:12:36,403 INFO o.a.j.JMeter: user.dir  =/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin
+2019-10-28 07:12:36,403 INFO o.a.j.JMeter: PWD       =/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin
+2019-10-28 07:12:36,408 INFO o.a.j.JMeter: IP: 192.168.1.67 Name: OKI FullName: 192.168.1.67
+2019-10-28 07:12:37,022 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2019-10-28 07:12:37,048 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2019-10-28 07:12:37,048 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2019-10-28 07:12:37,123 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-10-28 07:12:38,884 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-10-28 07:12:38,884 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-10-28 07:12:38,884 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-10-28 07:12:38,885 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-10-28 07:12:38,885 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-10-28 07:12:38,885 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-10-28 07:12:39,335 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-10-28 07:12:39,335 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin/proxyserver.jks
+2019-10-28 07:12:39,514 INFO o.a.j.s.FileServer: Default base='/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin'
+2019-10-28 07:12:39,930 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-10-28 07:12:39,931 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-10-28 07:12:39,931 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-10-28 07:12:39,931 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-10-28 07:12:39,950 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2019-10-28 07:12:49,863 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
+2019-10-28 07:12:53,376 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
+2019-10-28 07:12:55,497 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
+2019-10-28 07:12:58,521 INFO o.a.j.u.JMeterUtils: Applying HiDPI scale: 1.1
+2019-10-28 07:16:05,948 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2019-10-28 07:16:19,326 INFO o.a.j.s.FileServer: Set new base='/home/oki/xavier/presentations-jmeter/apache-jmeter-5.1.1/bin'
+2019-10-28 07:16:19,470 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-10-28 07:16:19,486 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-10-28 07:16:19,487 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-10-28 07:16:21,521 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-10-28 07:16:21,538 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-10-28 07:16:21,538 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-10-28 07:16:21,541 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-10-28 07:16:21,541 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-10-28 07:16:21,808 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-10-28 07:16:21,860 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2019-10-28 07:16:21,860 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2019-10-28 07:16:21,860 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-10-28 07:16:21,860 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2019-10-28 07:16:21,866 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-10-28 07:16:21,866 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-10-28 07:16:21,867 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2019-10-28 07:16:21,882 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = OKI
+2019-10-28 07:16:21,887 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-10-28 07:16:21,991 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-10-28 07:16:21,991 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-10-28 07:16:22,015 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2019-10-28 07:16:22,015 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2019-10-28 07:16:22,016 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-10-28 07:16:22,017 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-10-28 07:16:49,714 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-10-28 07:16:49,715 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-10-28 07:16:49,717 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-10-28 07:16:49,726 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2019-10-28 07:16:49,726 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2019-10-28 07:16:49,726 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-10-28 07:16:49,726 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2019-10-28 07:16:49,739 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-10-28 07:16:49,740 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-10-28 07:16:49,741 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2019-10-28 07:16:49,787 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2019-10-28 07:16:49,787 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2019-10-28 07:16:49,787 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-10-28 07:16:49,788 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
