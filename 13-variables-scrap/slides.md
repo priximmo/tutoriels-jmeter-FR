@@ -25,6 +25,19 @@
   - match : -1
   - default : NOLINK
 
+<br>
 4- Debug - Post Processor
 
-5-
+<br>
+5- Insert Parent > ForEach Controller
+	- input : urls
+	- output : url
+	- coche add before
+
+<br>
+6- HTTP request 
+	- name : ${url}
+	- path : ${url}
+
+7- view result tree
+
