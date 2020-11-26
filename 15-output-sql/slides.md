@@ -5,11 +5,15 @@
 
 
 <br>
+
+
 * combinaison des dernières vidéos :
 		* scraping de pages : date / url / status
 		* chargement en bdd postgres
 
 <br>
+
+
 0- Création d'une database postgres
 		* create user (admin/admin)
 		* create database (jmeter)
@@ -24,9 +28,13 @@ create table scrap_xavki (timer varchar(255), path varchar(255), status varchar(
 		
 
 <br>
+
+
 1- Thread : 1 user / loop 1
 
 <br>
+
+
 2- connexion au serveur postgres
 		* jdbc connexion configuration
 				* variable pool : postgres
@@ -39,10 +47,14 @@ create table scrap_xavki (timer varchar(255), path varchar(255), status varchar(
 # Actions
 
 <br>
+
+
 3- création du sampler : HTTP Request ( https://xavki.blog - GET / )
 
 
 <br>
+
+
 4- PostProcessor : regular expression extractor
   - Body
   - name : urls
@@ -52,10 +64,14 @@ create table scrap_xavki (timer varchar(255), path varchar(255), status varchar(
   - default : NOLINK
 
 <br>
+
+
 5- ForEach controller
 		* urls / url
 
 <br>
+
+
 6- HTTP Request 
 		* ${url}
 
@@ -65,6 +81,8 @@ create table scrap_xavki (timer varchar(255), path varchar(255), status varchar(
 		* pas de vide
 
 <br>
+
+
 7- JDBC Request
 		* name pool : postgres
 		* query type : callable statement

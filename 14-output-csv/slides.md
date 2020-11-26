@@ -5,17 +5,25 @@
 
 
 <br>
+
+
 * récupérer les résultats généré par les vidéos précédentes
 
 * injecter en format csv
 
 <br>
+
+
 1- Thread : 1 user - loop 1
 
 <br>
+
+
 2- création du sampler : HTTP Request ( https://xavki.blog - GET / )
 
 <br>
+
+
 3- PostProcessor : regular expression extractor
   - Body
   - name : urls
@@ -32,6 +40,8 @@
 
 
 <br>
+
+
 5- InsertParent - ForEach Controller
 		* urls/url
 
@@ -40,6 +50,8 @@
 		* /${url}/
 
 <br>
+
+
 7- PostProcessor 
 		* response code
 		* variable : status
@@ -49,6 +61,8 @@
 		* coche use empty
 
 <br>
+
+
 8- BeanShell Processor
 
 * reset interpreter : false
@@ -60,6 +74,8 @@ vars.put("result", result);
 ```
 
 <br>
+
+
 9- JSR223 PostProcessor
 
 * language : groovy
@@ -71,4 +87,6 @@ vars.put("result";"");
 ```
 
 <br>
+
+
 10 - view result tree

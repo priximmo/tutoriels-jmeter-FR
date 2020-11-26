@@ -6,6 +6,8 @@
 
 
 <br>
+
+
 * Jmeter : outil de tests
 
 * fondation Apache
@@ -15,6 +17,8 @@
 * java : linux, windows, mac os, bsd
 
 <br>
+
+
 * outil devops dans son volet QA
 
 * tester une version avant de la déployer (CI/CD)
@@ -28,6 +32,8 @@
 
 
 <br>
+
+
 * tests :
 		* tests de charges/performances
 		* tests de scénarios
@@ -35,6 +41,8 @@
 Rq : complémentaire aux tests unitaires et manuels
 
 <br>
+
+
 * type de requêtes : 
 		* ftp
 		* http/https
@@ -55,8 +63,12 @@ Rq : complémentaire aux tests unitaires et manuels
 
 
 <br>
+
+
 * GUI : uniquement en local > élaboration du test
 
 <br>
+
+
 * CLI : pour intégrer et jouer ce plan dans des outils/pipeline (ou seul)
 

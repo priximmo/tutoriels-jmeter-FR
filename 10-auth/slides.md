@@ -6,6 +6,8 @@
 
 <br>
 
+
+
 * example app :
 
 ```
@@ -17,6 +19,8 @@ user : user  && password: passwd
 ```
 
 <br>
+
+
 * config element : HTTP Authorization Manager
 		* ajout url 
 		* user et password

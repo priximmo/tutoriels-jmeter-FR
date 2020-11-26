@@ -6,6 +6,8 @@
 
 <br>
 
+
+
 * example app :
 
 ```
@@ -17,6 +19,8 @@ user : user  && password: passwd
 ```
 
 <br>
+
+
 * création d'un fichier CSV (exemple)
 		* format = path,user,password
 
@@ -33,15 +37,21 @@ basic-auth/user/dswp,user,dswp
 
 
 <br>
+
+
 * configuration thread : nb users = nb lignes
 
 <br>
+
+
 * CSV data set config :
 		* filename : location
 		* variables : path,u,p
 		* delimiter : ,
 
 <br>
+
+
 * HTTP Authorization Manager :
 		* url : http://127.0.0.1/${path}
 		* username : ${u}
@@ -49,10 +59,14 @@ basic-auth/user/dswp,user,dswp
 		* mechanism : BASIC_DIGEST
 
 <br>
+
+
 * HTTP Request :
 		* protocol : http
 		* url : 127.0.0.1
 		* path : /${path}
 
 <br>
+
+
 * Listener : View Results Tree

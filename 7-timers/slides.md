@@ -6,6 +6,8 @@
 
 
 <br>
+
+
 * Timers = fixer la fréquence des requêtes du test
 
 * peut être fixé par test ou par requête

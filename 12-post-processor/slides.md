@@ -6,17 +6,25 @@
 
 
 <br>
+
+
 * Post Processor : traitement des datas reçues
 
 * ex : application d'une regex pour parser la page
 
 <br>
+
+
 1- Thread : 10 users - loop 1
 
 <br>
+
+
 2- création du sampler : HTTP Request ( https://xavki.blog - GET / )
 
 <br>
+
+
 3- HTTP request > add post processor : regular expression extractor
   - Body
   - name : urls
